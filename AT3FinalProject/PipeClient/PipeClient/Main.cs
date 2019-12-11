@@ -1,6 +1,12 @@
 ﻿using System;
 using System.Windows.Forms;
 
+// Bryce Huston
+// 30003673
+// 10/12/2019
+// Programming III
+// AT3 Project
+
 namespace PipeClient
 {
     public partial class Main : Form
@@ -22,34 +28,24 @@ namespace PipeClient
             audio.Show();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            FormBST searchTree = new FormBST();
-            searchTree.Show();
-        }
 
-        private void BtnProgressBar_Click(object sender, EventArgs e)
-        {
-            ProgressBar bar = new ProgressBar();
-            bar.Show();
-        }
 
-        private void BtnCSV_Click(object sender, EventArgs e)
-        {
-            CSVFormat csv = new CSVFormat();
-            csv.Show();
-        }
-
-        private void BtnFinalProject_Click(object sender, EventArgs e)
-        {
-            FinalProject finalProject = new FinalProject();
-            finalProject.Show();
-        }
-
-        private void Button2_Click(object sender, EventArgs e)
+        private void BtnAdmin_Click(object sender, EventArgs e)
         {
             Client client = new Client();
             client.Show();
+        }
+
+        private void BtnCSVFormat_Click(object sender, EventArgs e)
+        {
+            CSVFormat finalProject = new CSVFormat();
+            finalProject.Show();
+        }
+
+        private void BtnBST_Click(object sender, EventArgs e)
+        {
+            FormBST searchTree = new FormBST();
+            searchTree.Show();
         }
     }
 }

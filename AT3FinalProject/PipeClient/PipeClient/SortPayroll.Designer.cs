@@ -71,7 +71,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(603, 98);
+            this.label1.Location = new System.Drawing.Point(282, 395);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 17);
             this.label1.TabIndex = 71;
@@ -81,13 +81,13 @@
             // 
             this.progressBar.Location = new System.Drawing.Point(28, 526);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(658, 42);
+            this.progressBar.Size = new System.Drawing.Size(564, 42);
             this.progressBar.TabIndex = 70;
             // 
             // rbNone
             // 
             this.rbNone.AutoSize = true;
-            this.rbNone.Location = new System.Drawing.Point(607, 274);
+            this.rbNone.Location = new System.Drawing.Point(285, 470);
             this.rbNone.Name = "rbNone";
             this.rbNone.Size = new System.Drawing.Size(63, 21);
             this.rbNone.TabIndex = 69;
@@ -107,8 +107,8 @@
             // rbRadix
             // 
             this.rbRadix.AutoSize = true;
-            this.rbRadix.BackColor = System.Drawing.Color.Snow;
-            this.rbRadix.Location = new System.Drawing.Point(606, 133);
+            this.rbRadix.BackColor = System.Drawing.Color.Transparent;
+            this.rbRadix.Location = new System.Drawing.Point(285, 430);
             this.rbRadix.Name = "rbRadix";
             this.rbRadix.Size = new System.Drawing.Size(64, 21);
             this.rbRadix.TabIndex = 66;
@@ -151,7 +151,7 @@
             // 
             // btnSortAll
             // 
-            this.btnSortAll.BackColor = System.Drawing.Color.Red;
+            this.btnSortAll.BackColor = System.Drawing.Color.DimGray;
             this.btnSortAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSortAll.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSortAll.Location = new System.Drawing.Point(414, 12);
@@ -205,7 +205,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 589);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(621, 589);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lbRadix);
             this.Controls.Add(this.label1);

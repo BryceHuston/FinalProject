@@ -88,10 +88,13 @@
             // lstOutput
             // 
             this.lstOutput.FormattingEnabled = true;
+            this.lstOutput.HorizontalScrollbar = true;
             this.lstOutput.ItemHeight = 16;
             this.lstOutput.Location = new System.Drawing.Point(25, 390);
             this.lstOutput.Margin = new System.Windows.Forms.Padding(4);
+            this.lstOutput.MultiColumn = true;
             this.lstOutput.Name = "lstOutput";
+            this.lstOutput.ScrollAlwaysVisible = true;
             this.lstOutput.Size = new System.Drawing.Size(1043, 196);
             this.lstOutput.TabIndex = 18;
             // 
@@ -164,9 +167,9 @@
             // stsDisplay
             // 
             this.stsDisplay.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.stsDisplay.Location = new System.Drawing.Point(0, 598);
+            this.stsDisplay.Location = new System.Drawing.Point(0, 600);
             this.stsDisplay.Name = "stsDisplay";
-            this.stsDisplay.Size = new System.Drawing.Size(1117, 24);
+            this.stsDisplay.Size = new System.Drawing.Size(1117, 22);
             this.stsDisplay.TabIndex = 24;
             this.stsDisplay.Text = "statusStrip1";
             // 
@@ -174,6 +177,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoSize = true;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1117, 622);
             this.Controls.Add(this.stsDisplay);
             this.Controls.Add(this.tbFindMax);
@@ -189,7 +196,7 @@
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnSearch);
             this.Name = "FormBST";
-            this.Text = "Form1";
+            this.Text = "Binary Search Tree";
             this.ResumeLayout(false);
             this.PerformLayout();
 

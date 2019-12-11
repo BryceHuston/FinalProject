@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Windows.Forms;
 
+// Bryce Huston
+// 30003673
+// 10/12/2019
+// Programming III
+// AT3 Project
+
 namespace PipeClient
 {
     public partial class SortPayroll : Form
@@ -67,7 +73,7 @@ namespace PipeClient
                 checkSortAll = false;
 
                 sortTimer.Stop();
-                
+
 
                 // Shows the total amount of time taken for the application to complete sorting
                 stopWatch.Text = sortTimer.ElapsedMilliseconds.ToString() + " ms";
@@ -85,8 +91,8 @@ namespace PipeClient
             int temp;
             for (int i = 0; i < MAX; i++)
             {
-                // Random number betwwen 1M and 10M
-                temp = rand.Next(1000000, 10000000);
+                // Random number betwwen 50 Thousand and 100 Thousand
+                temp = rand.Next(50000, 100000);
                 payRollList[i] = (temp);
                 if (!checkSortAll)
                 {

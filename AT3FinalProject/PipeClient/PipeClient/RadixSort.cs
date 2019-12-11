@@ -1,5 +1,11 @@
 ﻿using System;
 
+// Bryce Huston
+// 30003673
+// 10/12/2019
+// Programming III
+// AT3 Project
+
 namespace PipeClient
 {
     class RadixSort

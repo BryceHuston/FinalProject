@@ -42,19 +42,19 @@
             // tbRecieved
             // 
             this.tbRecieved.BackColor = System.Drawing.Color.White;
-            this.tbRecieved.Location = new System.Drawing.Point(30, 293);
+            this.tbRecieved.Location = new System.Drawing.Point(35, 293);
             this.tbRecieved.Margin = new System.Windows.Forms.Padding(4);
             this.tbRecieved.Multiline = true;
             this.tbRecieved.Name = "tbRecieved";
             this.tbRecieved.ReadOnly = true;
             this.tbRecieved.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbRecieved.Size = new System.Drawing.Size(193, 122);
+            this.tbRecieved.Size = new System.Drawing.Size(349, 122);
             this.tbRecieved.TabIndex = 29;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 272);
+            this.label2.Location = new System.Drawing.Point(138, 270);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(135, 17);
@@ -63,7 +63,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(80, 424);
+            this.btnClear.Location = new System.Drawing.Point(153, 422);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(100, 28);
@@ -74,7 +74,7 @@
             // 
             // btnDisconnect
             // 
-            this.btnDisconnect.Location = new System.Drawing.Point(54, 60);
+            this.btnDisconnect.Location = new System.Drawing.Point(127, 58);
             this.btnDisconnect.Margin = new System.Windows.Forms.Padding(4);
             this.btnDisconnect.Name = "btnDisconnect";
             this.btnDisconnect.Size = new System.Drawing.Size(165, 28);
@@ -85,7 +85,7 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(54, 28);
+            this.btnConnect.Location = new System.Drawing.Point(127, 26);
             this.btnConnect.Margin = new System.Windows.Forms.Padding(4);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(165, 28);
@@ -96,7 +96,7 @@
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(80, 216);
+            this.btnSend.Location = new System.Drawing.Point(153, 214);
             this.btnSend.Margin = new System.Windows.Forms.Padding(4);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(100, 28);
@@ -107,24 +107,26 @@
             // 
             // tbPass
             // 
+            this.tbPass.HideSelection = false;
             this.tbPass.Location = new System.Drawing.Point(35, 177);
             this.tbPass.Margin = new System.Windows.Forms.Padding(4);
             this.tbPass.Name = "tbPass";
-            this.tbPass.Size = new System.Drawing.Size(197, 22);
+            this.tbPass.Size = new System.Drawing.Size(349, 22);
             this.tbPass.TabIndex = 23;
+            this.tbPass.UseSystemPasswordChar = true;
             // 
             // tbUser
             // 
             this.tbUser.Location = new System.Drawing.Point(35, 145);
             this.tbUser.Margin = new System.Windows.Forms.Padding(4);
             this.tbUser.Name = "tbUser";
-            this.tbUser.Size = new System.Drawing.Size(197, 22);
+            this.tbUser.Size = new System.Drawing.Size(349, 22);
             this.tbUser.TabIndex = 22;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(62, 111);
+            this.label1.Location = new System.Drawing.Point(135, 109);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(138, 17);
@@ -135,8 +137,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(262, 472);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(424, 472);
             this.Controls.Add(this.tbRecieved);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnClear);
@@ -148,7 +150,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Client";
-            this.Text = "Client";
+            this.Text = "Login Page";
             this.ResumeLayout(false);
             this.PerformLayout();
 

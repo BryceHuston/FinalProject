@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 // Bryce Huston
 // 30003673
-// 5/11/2019
+// 10/12/2019
 // Programming III
-// AT 2.4
+// AT3 Project
 
 namespace PipeClient
 {
