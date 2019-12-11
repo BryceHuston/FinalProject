@@ -40,7 +40,7 @@
             // btnConnect
             // 
             this.btnConnect.Location = new System.Drawing.Point(32, 28);
-            this.btnConnect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(4);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(389, 39);
             this.btnConnect.TabIndex = 0;
@@ -51,7 +51,7 @@
             // btnSend
             // 
             this.btnSend.Location = new System.Drawing.Point(167, 224);
-            this.btnSend.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSend.Margin = new System.Windows.Forms.Padding(4);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(97, 34);
             this.btnSend.TabIndex = 1;
@@ -62,7 +62,7 @@
             // btnClear
             // 
             this.btnClear.Location = new System.Drawing.Point(167, 405);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(97, 34);
             this.btnClear.TabIndex = 2;
@@ -73,7 +73,7 @@
             // tbSend
             // 
             this.tbSend.Location = new System.Drawing.Point(32, 111);
-            this.tbSend.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbSend.Margin = new System.Windows.Forms.Padding(4);
             this.tbSend.Multiline = true;
             this.tbSend.Name = "tbSend";
             this.tbSend.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -83,7 +83,7 @@
             // tbReceived
             // 
             this.tbReceived.Location = new System.Drawing.Point(32, 292);
-            this.tbReceived.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbReceived.Margin = new System.Windows.Forms.Padding(4);
             this.tbReceived.Multiline = true;
             this.tbReceived.Name = "tbReceived";
             this.tbReceived.ReadOnly = true;
@@ -115,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(464, 466);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -124,7 +124,7 @@
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.btnConnect);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Server";
             this.Text = "Server";
             this.ResumeLayout(false);
